@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bequin Padel</title>
+    <link rel="shortcut icon" href="../MULTIMEDIA/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menuNav"><!--LISTA DEL MENU DEL NAVEGADOR-->  
+            <img class="logoSize" src="../MULTIMEDIA/LOGO.png"Logo Bequin">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="CLASES.HTML">CLASES</a></li>
+                <li><a href="TORNEOS.HTML">TORNEOS</a></li>
+                <li><a href="ELCLUB.HTML">EL CLUB</a></li>
+                <li><a href="CONTACTO.HTML">CONTACTO</a></li>
+             </ul>
+        </nav>
+        <h1 class="tituloCentrado">CONTACTO</h1>
+    </header>
+    <main class="estructuraContacto"><!--NO ESTOY DEL TODO CONVENCIDO CON LA DISTRIBUCION DE LOS ELEMENTOS DEL FORM. NO SE SI VISUALMENTE SON AMIGABLES. TAMPOCO ME CONVENCEN EL MAPA Y EL VIDEO EN EL LUGAR QUE ESTAN-->
+        <div class="box1"> <!--BOX1--> 
+        <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">     
+        </div>
+            <div class="box2"><!--BOX2-->
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo">      
+        </div>  
+        <div class="box3"><!--BOX3-->
+        <label for="medisnsaje">Mensaje:</label>
+            <textarea name="mensaje:" id="" cols="30" rows="5"></textarea>
+        </div>  
+        <div class="box4"> <!--BOX4-->
+            <label for="genero">Genero:</label>
+            <input type="radio" value="M" name="genero">M
+            <input type="radio" value="F" name="genero">F
+            <input type="radio" value="M" name="genero">NR
+        </div>
+        <div class="box5"><!--BOX5-->
+            <label for="newsletter">Deseo suscribirme al newsletter semanal</label>
+            <input type="checkbox" name="newsletter">
+        </div>
+        <div class="box6"><!--BOX6 -->
+            <Label for="experiencia">Que experiencia posee </Label>
+            <select name="experiencia">
+                <option value="Juego regularmente">Juego regularmente</option>
+                <option value="Juego Ocasionalmente">Juego ocasionalmnete</option>
+                <option value="Nunca antes jugue">Nunca antes jugue </option>
+            </select>
+        </div>
+        <div class="box7"><!--BOX7-->
+            <Label for="motivo">Motivo de la Consulta </Label>
+            <select name="motivo">
+                <option value="Reserva">Reserva</option>
+                <option value="Inscripcion Torneo">Inscripcion Torneo</option>
+                <option value="Clases">Clases</option>
+                <option value="Otros">Otros</option>
+            </select>
+        </div>
+        <div class="box8"><!--BOX8-->
+            <input type="button">
+            <input type="submit">
+            <input type="reset">
+        </div> 
+                <iframe class="videoContacto" width="450" height="300" src="https://www.youtube.com/embed/iqmPAk8e3RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--VIDEO CON BREVE INTRODUCCION AL CLUB-->
+                <p class="box9">NO PIERDAS MAS TIEMPO Y VENI A SUMARTE A ESTA HERMOSA COMUNIDAD</p>
+                <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.287869094739!2d-58.46365758508605!3d-34.62216496598078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2042f26f97%3A0x5aef2e1ca27f68d4!2sBequin%20Padel!5e0!3m2!1ses!2sar!4v1660775677148!5m2!1ses!2sar" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </main>
+    <hr>
+    <footer class="footer">
+        <a href="https://www.instagram.com/bequinpadel/" target="_blank"> <img src="../MULTIMEDIA/logoinstagram.jpg" alt="img" height="40" width="40"></a>
+        <a href="https://www.facebook.com/bequin.padel.7/"target="_blank"> <img src="../MULTIMEDIA/logofacebook.jpg" alt="img" height="40" width="40"></a>
+      </footer>
+</body>
+</html>

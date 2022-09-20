@@ -37,51 +37,82 @@
           </div>
         </div>
       </nav>        
-    <header>
-        </header>
-    <main class="estructuraClases"><!--LA IDEA DE ESTE MAIN ES QUE LAS DOS IMAGENES Y LOS DOS TEXTOS ESTEN EN DIAGONAL. HAY QUE MEJORAR LA PARTE VISUAL DEL TEXTO Y EL TAMAÑO DE LAS IAMGENES PARA QUE TODO QUEDE ARMONICO A LA VISTA-->
-                <p class="texto1Clases">Aprendé, mejorá o entrená con nosotros.</p>
-              <p class="texto2Clases">Clases individuales o grupales según tu nivel o requerimiento. Nos adaptamos a tus necesidades.</p> 
-               <p class="texto3Clases">Si sos nuevo te enseñamos a jugar, si ya jugas, podés mejorar tu juego y entrenar para competición.</p> 
-            <img class="imgSizeClases1" src="../multimedia/clasesdepadelinfantiles.jpg" alt="padel2">        
-            <h2 class="texto4Clases">
-                Cursos de Pádel para los más pequeños de la pista
-            </h2>
-            <p class="texto5Clases">
-                Un curso donde conocerás las etapas de desarrollo de los niños/as junto con la aportación de juegos y ejercicios específicos para optimizar el trabajo de las fases sensibles de cada una de ellas.
-            </p>
-            <table class="tablaClases" border="10px"> 
-                <th>NIVEL DE CLASE</th>
-                <th>FRANJA HORARIA</th>
-                <th>ARANCEL</th>
-                    <tr>
-                        <td>Principiante</td>
-                        <td>10 a 16</td>
-                        <td> $3.500</td>
-                    </tr>
-                    <tr>
-                         <td>Principiante</td>
-                        <td>16 a 22</td>
-                        <td>$5.000</td>
-                    </tr>
-                    <tr>
-                        <td>Competitivo</td>
-                        <td>10 a 16</td>
-                        <td>$5.000</td>
-                    </tr>
-                    <tr>
-                        <td>Competitivo</td>
-                        <td>16 a 22</td>
-                        <td> $6.500</td>
-                    </tr>
-                    <tr>
-                        <td>Infantil</td>
-                        <td>15 a 20</td>
-                        <td>$3.000</td>
-                    </tr>
-            </table>
+    
+    <main><!--LA IDEA DE ESTE MAIN ES QUE LAS DOS IMAGENES Y LOS DOS TEXTOS ESTEN EN DIAGONAL. HAY QUE MEJORAR LA PARTE VISUAL DEL TEXTO Y EL TAMAÑO DE LAS IAMGENES PARA QUE TODO QUEDE ARMONICO A LA VISTA-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators carouselClases">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4 "></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../multimedia/bootstrapimg/clasespadelbase.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+           </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/bootstrapimg/clasespadel1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
             </div>
-                <p class="texto6Clases">
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/bootstrapimg/clasespadel2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/bootstrapimg/clasespadel3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>          
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">NIVEL DE CLASE</th>
+            <th scope="col">FRANJA HORARIA</th>
+            <th scope="col">ARANCEL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Principiante</td>
+            <td>10 a 16</td>
+            <td>$3.500</td>
+          </tr>
+          <tr>
+            <td>Principiante</td>
+            <td>16 a 22</td>
+            <td>$5.000</td>
+          </tr>
+          <tr>
+            <td>Competitivo</td>
+            <td>10 a 16</td>
+            <td>$5.000</td>
+          </tr>
+          <tr>
+            <td>Competitivo</td>
+            <td>16 a 22</td>
+            <td>$6.500</td>
+          </tr>
+          <tr>
+            <td>Infantil</td>
+            <td>15 a 20</td>
+            <td>$3.000</td>
+          </tr>
+        </tbody>
+      </table>  
+            </div>
+                <p>
                 Si estas interesado en tomar clases no dudes en consultarnos. A la brevedad te estaremos respondiendo con toda la informacion necesaria
                 </p>
                 <a class="botonClases" href="contacto.html"><input type="submit" value="Quiero inscribirme a clases"></a><!--CUARTO BLOQUE BIS-->

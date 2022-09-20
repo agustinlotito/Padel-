@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+.bg-light{
+    background-color: aqua!important;
+}
+.textoTorneos{
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+.carouselClases{
+    padding-bottom: 250px;
+}
+.espacioMainContacto{
+    padding-top: 10px;
+}
+.botonClases{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

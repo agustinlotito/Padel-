@@ -39,54 +39,53 @@
   </nav>   
     <header>
     </header>
-    <main class="estructuraContacto"><!--NO ESTOY DEL TODO CONVENCIDO CON LA DISTRIBUCION DE LOS ELEMENTOS DEL FORM. NO SE SI VISUALMENTE SON AMIGABLES. TAMPOCO ME CONVENCEN EL MAPA Y EL VIDEO EN EL LUGAR QUE ESTAN-->
-        <div class="box1"> <!--BOX1--> 
-        <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre">     
+    <main class="espacioMainContacto">
+      <form class="row g-3">
+        <div class="col-md-6">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
         </div>
-            <div class="box2"><!--BOX2-->
-            <label for="correo">Correo:</label>
-            <input type="email" name="correo">      
-        </div>  
-        <div class="box3"><!--BOX3-->
-        <label for="medisnsaje">Mensaje:</label>
-            <textarea name="mensaje:" id="" cols="30" rows="5"></textarea>
-        </div>  
-        <div class="box4"> <!--BOX4-->
-            <label for="genero">Genero:</label>
-            <input type="radio" value="M" name="genero">M
-            <input type="radio" value="F" name="genero">F
-            <input type="radio" value="M" name="genero">NR
+        <div class="col-md-6">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Correo Electronico">
         </div>
-        <div class="box5"><!--BOX5-->
-            <label for="newsletter">Deseo suscribirme al newsletter semanal</label>
-            <input type="checkbox" name="newsletter">
+        <div class="col-12">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Mensaje">
         </div>
-        <div class="box6"><!--BOX6 -->
-            <Label for="experiencia">Que experiencia posee </Label>
-            <select name="experiencia">
-                <option value="Juego regularmente">Juego regularmente</option>
-                <option value="Juego Ocasionalmente">Juego ocasionalmnete</option>
-                <option value="Nunca antes jugue">Nunca antes jugue </option>
-            </select>
+        <div class="col-md-4">
+          <select id="inputState" class="form-select">
+            <option selected>Experiencia</option>
+            <option>Ninguna</option>
+            <option>Amateur</option>
+            <option>Profesional</option>
+          </select>
         </div>
-        <div class="box7"><!--BOX7-->
-            <Label for="motivo">Motivo de la Consulta </Label>
-            <select name="motivo">
-                <option value="Reserva">Reserva</option>
-                <option value="Inscripcion Torneo">Inscripcion Torneo</option>
-                <option value="Clases">Clases</option>
-                <option value="Otros">Otros</option>
-            </select>
+        <div class="col-md-4">
+          <select id="inputState" class="form-select" >
+            <option selected>Motivo de Consulta</option>
+            <option>Reserva de cancha</option>
+            <option>Clases</option>
+            <option>Inscripcion a torneo</option>
+          </select>
         </div>
-        <div class="box8"><!--BOX8-->
-            <input type="button">
-            <input type="submit">
-            <input type="reset">
-        </div> 
-                <iframe class="videoContacto" width="450" height="300" src="https://www.youtube.com/embed/iqmPAk8e3RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--VIDEO CON BREVE INTRODUCCION AL CLUB-->
-                <p class="box9">NO PIERDAS MAS TIEMPO Y VENI A SUMARTE A ESTA HERMOSA COMUNIDAD</p>
-                <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.287869094739!2d-58.46365758508605!3d-34.62216496598078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2042f26f97%3A0x5aef2e1ca27f68d4!2sBequin%20Padel!5e0!3m2!1ses!2sar!4v1660775677148!5m2!1ses!2sar" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-md-4">
+          <select id="inputState" class="form-select">
+            <option selected>Genero</option>
+            <option>M</option>
+            <option>F</option>
+            <option>NS/NC</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Desea suscribirse al newsletter semanal
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar consulta</button>
+        </div>
+      </form>
         </main>
     <hr>
     <footer class="footer">

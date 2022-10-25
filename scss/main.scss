@@ -1,19 +1,25 @@
 @import "variables";
 @import "clases";
 @import "torneos";
-
-footer{
-    text-align: center;
-    background-color: $colorPrincipal;
-    .instagram{
-        padding-right:100px;
-    }
-    .facebook{
-        padding-left: 100px;
-    }
-   }
-body{ 
-.bg-light{
-    background-color: $colorPrincipal!important;
+@import "contacto";
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding-top: 20px;
+}
+body{
+    background-color: grey;
+}
+.bg-light{
+    background-color:lightblue!important;
+}
+.card{
+    background-color: rgb(0, 255, 229);
 }

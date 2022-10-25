@@ -1,50 +1,39 @@
-.btn--torneos {
-  background-color: blue; }
-
-.btn--clases {
-  background-color: green; }
-
-.btn--torneos {
-  font-size: 30px;
-  padding: 1rem;
-  width: 500px;
-  height: 750px; }
-
-.btn--clases {
-  font-size: 30px;
-  padding: 1rem; }
-
-main .table {
-  background-color: palevioletred;
-  font-family: Arial, Helvetica, sans-serif; }
-  main .table tr {
-    color: white;
-    text-align: center; }
-
-main .carouselClases {
+.carouselClases {
   padding-bottom: 250px; }
 
-main .botonClases, main .btn--clases {
+.textoClases {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.textoTorneos {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.espacioMainContacto {
+  padding-top: 25px; }
+
+.boton {
   display: flex;
   justify-content: center;
-  padding-top: 10px; }
-
-main .parrafoClases {
-  text-align: center; }
-
-header .textoTorneos {
-  text-align: center; }
-
-main .textoTorneos {
-  text-align: center; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 footer {
-  text-align: center;
-  background-color: #9816F3; }
-  footer .instagram {
-    padding-right: 100px; }
-  footer .facebook {
-    padding-left: 100px; }
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding-top: 20px; }
 
-body .bg-light {
-  background-color: #9816F3 !important; }
+body {
+  background-color: grey; }
+
+.bg-light {
+  background-color: lightblue !important; }
+
+.card {
+  background-color: #00ffe5; }
